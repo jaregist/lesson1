@@ -33,3 +33,16 @@ br {
     font-weight: bold;
     color: red;
 }
+.return-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid blue;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}

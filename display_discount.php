@@ -88,6 +88,9 @@
         <span><?php echo $total_price_formatted; ?></span><br />
 
         <p>&nbsp;</p>
+				<form class="return-btn" action="index.php">
+					<button type="submit" class="button">Return</button>
+				</form>
     </div>
 </body>
 </html>
