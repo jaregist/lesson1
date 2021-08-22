@@ -7,9 +7,9 @@
 	//VALIDATE DATA
 	if (empty($product_description)) {
 		$error_message = 'Product Description must have a valid entry';
-	} elseif (empty($list_price)) {
+	} elseif ($list_price == '') {
 		$error_message = 'List Price must have a valid entry';
-	} elseif (empty($discount_percent)) {
+	} elseif ($discount_percent == '') {
 		$error_message = 'Discount Percent must have a valid entry';
 	} elseif (!is_numeric($list_price)) {
 		$error_message = 'List Price must be a number';
